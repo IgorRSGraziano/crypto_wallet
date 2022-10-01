@@ -2,13 +2,38 @@
 
 <h1>Coins</h1>
 
-<div id="coins">
+<table id="coins">
+  <thead>
+  <tr>
+    <th>
+      Description:
+    </th>
+    <th>
+      Acronym:
+    </th>
+    <th>
+      Image:
+    </th>
+  </tr>
+  </thead>
+  <tbody>
   <% @coins.each do |coin| %>
-    <%= render coin %>
-    <p>
-      <%= link_to "Show this coin", coin %>
-    </p>
+    <tr>
+      <td>
+        <%= coin.description %>
+      </td>
+      <td>
+        <%= coin.acronym %>
+      </td>
+      <td>
+        <%= image_tag coin.url_image, width: 25 %>
+      </td>
+      <td>
+        <%= link_to "Show this coin", coin %>
+      </td>
+    </tr>
   <% end %>
-</div>
+  </tbody>
+</table>
 
 <%= link_to "New coin", new_coin_path %>
