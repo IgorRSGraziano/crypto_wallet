@@ -14,6 +14,9 @@
     <th>
       Image:
     </th>
+    <th>
+      Mining Type:
+    </th>
   </tr>
   </thead>
   <tbody>
@@ -27,6 +30,9 @@
       </td>
       <td>
         <%= image_tag coin.url_image, width: 25 %>
+      </td>
+      <td>
+        <%= coin.mining_type.description %>
       </td>
       <td>
         <%= link_to "Show this coin", coin %>
