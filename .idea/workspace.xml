@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25946806-9da1-44b2-bcac-ef2571721054" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/crypto_wallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crypto_wallet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/coins_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/coins_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/mining_types_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/mining_types_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/coin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/coin.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/mining_type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/mining_type.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/_coin.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/_coin.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/_mining_type.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/_mining_type.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/_mining_type.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/_mining_type.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20221011001704_create_mining_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/mining_types_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/mining_types_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/mining_types.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/mining_types.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/mining_types_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/mining_types_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FHJJhf4AGdsqvuZWaUcb1JQTFx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby Console.IRB: crypto_wallet">
+  <component name="RunManager" selected="Rails.Development: crypto_wallet">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -364,7 +357,9 @@
       <workItem from="1665700994522" duration="3321000" />
       <workItem from="1665853030859" duration="3121000" />
       <workItem from="1665873503886" duration="3094000" />
-      <workItem from="1665940315661" duration="4503000" />
+      <workItem from="1665940315661" duration="5492000" />
+      <workItem from="1666049390058" duration="2864000" />
+      <workItem from="1666131896125" duration="1199000" />
     </task>
     <servers />
   </component>
@@ -383,7 +378,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/crypto_wallet@Development__crypto_wallet.rcov" NAME="Development: crypto_wallet Coverage Results" MODIFIED="1664654781542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crypto_wallet" />
+    <SUITE FILE_PATH="coverage/crypto_wallet@Production__crypto_wallet.rcov" NAME="Production: crypto_wallet Coverage Results" MODIFIED="1666050802177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crypto_wallet" />
     <SUITE FILE_PATH="coverage/crypto_wallet@IRB__crypto_wallet.rcov" NAME="IRB: crypto_wallet Coverage Results" MODIFIED="1665940576811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crypto_wallet" />
+    <SUITE FILE_PATH="coverage/crypto_wallet@Development__crypto_wallet.rcov" NAME="Development: crypto_wallet Coverage Results" MODIFIED="1666050821075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crypto_wallet" />
   </component>
 </project>
