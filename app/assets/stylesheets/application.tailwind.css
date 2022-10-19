@@ -1,3 +1,15 @@
-@import "tailwindcss/base";
-@import "tailwindcss/utilities";
-@import "tailwindcss/components";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    header, footer {
+        background-color: #F0E7E9;
+    }
+    a {
+        @apply text-red-800;
+    }
+    a:hover {
+        @apply text-red-500 transition;
+    }
+}
