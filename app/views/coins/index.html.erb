@@ -2,44 +2,26 @@
 
 <h1>Coins</h1>
 
-<table id="coins">
-  <thead>
+<table id="coins" class="border-collapse table-fixed w-full text-sm">
+  <thead class="bg-slate-50 shadow-md">
   <tr>
-    <th>
-      Description:
-    </th>
-    <th>
-      Acronym:
-    </th>
-    <th>
-      Image:
-    </th>
-    <th>
-      Mining Type:
-    </th>
+    <% ["Description", "Acronym", "Image", "Mining Type", "Actions"].each do |e| %>
+      <th class="border-b dark:border-slate-600 break-words font-medium text-center p-1 pt-6 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left">
+        <%= e %>
+      </th>
+    <% end %>
   </tr>
   </thead>
-  <tbody>
+  <tbody class="bg-white dark:bg-slate-800">
   <% @coins.each do |coin| %>
     <tr>
-      <td>
-        <%= coin.description %>
-      </td>
-      <td>
-        <%= coin.acronym %>
-      </td>
-      <td>
-        <%= image_tag coin.url_image, width: 25 %>
-      </td>
-      <td>
-        <%= coin.mining_type.description %>
-      </td>
-      <td>
-        <%= link_to "Show this coin", coin %>
-      </td>
+      <% [coin.description, coin.acronym, image_tag(coin.url_image, width: 25, class: "m-auto"), coin.mining_type.description, link_to("Show this coin", coin)].each do |e| %>
+        <td class="border-b border-slate-100 break-words dark:border-slate-700 p-4 px-1 m-auto text-center text-slate-500 dark:text-slate-400">
+          <%= e %>
+        </td>
+      <% end %>
     </tr>
   <% end %>
   </tbody>
 </table>
-
-<%= link_to "New coin", new_coin_path %>
+<%= link_to "New coin", new_coin_path, class: "float-right pt-6 mr-3 font-bold underline" %>

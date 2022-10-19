@@ -11,7 +11,7 @@
   <%= javascript_include_tag "application", "data-turbo-track": "reload" %>
 </head>
 
-<body class="bg-slate-50 text-slate-900 flex flex-col h-screen justify-between" >
+<body class="bg-slate-50 text-slate-900">
 <header class="w-100 p-5 flex justify-between shadow-md">
   <strong class="block text-lg">
     <%= link_to "CryptoWallet", "/" %>
@@ -27,7 +27,7 @@
     </ul>
   </div>
 </header>
-<main class="container mx-auto mt-28 px-5 flex mb-auto h-10">
+<main class="container mx-auto mt-28 px-5">
   <%= yield %>
 </main>
 </body>

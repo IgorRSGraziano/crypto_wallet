@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="25946806-9da1-44b2-bcac-ef2571721054" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/coins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/mining_types/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +361,8 @@
       <workItem from="1665940315661" duration="5492000" />
       <workItem from="1666049390058" duration="2864000" />
       <workItem from="1666131896125" duration="5766000" />
-      <workItem from="1666139200162" duration="1013000" />
+      <workItem from="1666139200162" duration="2224000" />
+      <workItem from="1666220983268" duration="2668000" />
     </task>
     <servers />
   </component>

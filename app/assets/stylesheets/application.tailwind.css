@@ -12,4 +12,27 @@
     a:hover {
         @apply text-red-500 transition;
     }
+
+    h1 {
+        @apply text-4xl text-black mb-5 relative w-fit;
+    }
+
+    h1:after {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        height: 3px;
+        z-index: -1;
+        width: 70%;
+        border-radius: 10px;
+        background-color: red;
+        transition: .30s;
+        border: #730E15;
+    }
+
+    h1:hover:after {
+        width: 100%;
+        transition: .30s;
+    }
 }
